@@ -26,19 +26,18 @@ class HomeTableViewController: UITableViewController {
         return 1
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableCell", for: indexPath) //as! HomeTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableCell", for: indexPath) as! HomeTableViewCell
         return cell
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 5
     }
-    
     //MARK - TAbleVIew Delegates
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 35
     }
-    
+
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: tableViewHeaderIdentifier) as! HomeTableViewHeaderView
         headerView.categoryLabel.text = "Trending Now"

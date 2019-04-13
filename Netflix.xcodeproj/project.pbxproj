@@ -63,7 +63,6 @@
 				927E0F7C2262369A003848F3 /* AppDelegate.swift */,
 				927E0F92226238DE003848F3 /* Home Screen */,
 				927E0F93226238F2003848F3 /* Cell */,
-				927E0F802262369A003848F3 /* Main.storyboard */,
 				927E0F832262369B003848F3 /* Assets.xcassets */,
 				927E0F852262369B003848F3 /* LaunchScreen.storyboard */,
 				927E0F882262369B003848F3 /* Info.plist */,
@@ -75,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				927E0F8E22623715003848F3 /* HomeTableViewController.swift */,
+				927E0F802262369A003848F3 /* Main.storyboard */,
 			);
 			path = "Home Screen";
 			sourceTree = "<group>";
